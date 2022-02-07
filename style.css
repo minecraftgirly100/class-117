@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1
+{
+    color: rgb(167, 236, 213);
+    background-color: antiquewhite;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas 
+{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    animation-name: Iwantsleep;
+    animation-duration: 2s;
+    margin-top: 120px;
+    animation-iteration-count: 400;
+
+
+}
+@keyframes Iwantsleep {
+
+    from {box-shadow: 1px 1px 28px aquamarine;}
+    to {box-shadow: 1px 1px 28px rgb(30, 114, 114);}
+}
+
+
+p
+    {
+        padding-top: 10px;
+        font-size: 25px;
+    }
